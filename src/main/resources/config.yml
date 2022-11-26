@@ -1,0 +1,25 @@
+item:
+  material: SUNFLOWER
+  name:
+    plural: tokens
+    singular: token
+  color: "#FFFF55"
+sfx:
+  sound: "BLOCK_AMETHYST_BLOCK_STEP"
+  volume: 0.5
+  pitch: 2.0
+entities:
+  zombie:
+    min: 5.0
+    max: 10.0
+  skeleton:
+    min: 5.0
+    max: 15.0
+  creeper:
+    min: 10.0
+    max: 20.0
+  drowned:
+    inherit: zombie
+  stray:
+    inherit: skeleton
+    multiplier: 2.0

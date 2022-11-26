@@ -1,0 +1,32 @@
+name: ShowMeTheMoney
+version: '${project.version}'
+main: com.rootnroute.rpg.showmethemoney.Main
+api-version: 1.19
+prefix: ShowMeTheMoney
+authors: [ Leafeling ]
+
+softdepend:
+- Vault
+
+description: Drops coins on mobs death with configurable amounts.
+website: www.rootnroute.com
+
+commands:
+  balance:
+    description: While using the internal economy system, returns the executor's balance.
+    aliases: [bal, b, money, showmethemoney]
+  showmethereload:
+    description: Reload the plugin.
+    permission: showmethemoney.reload
+    aliases: [smtmreload, smtmr]
+
+permissions:
+  showmethemoney.reload:
+    default: op
+    description: Allows the user to reload the ShowMeTheMoney.
+
+  showmethemoney.*:
+    default: op
+    description: All permissions for ShowMeTheMoney.
+    children:
+      showmethemoney.reload: true
