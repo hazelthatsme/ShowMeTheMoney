@@ -12,3 +12,7 @@ A Minecraft plugin (Bukkit, Spigot, Paper, etc.) that adds money to mob drops.
 
 ## Compiling
 ShowMeTheMoney uses a Maven .pom file to handle all the dependencies to compile the plugin.
+
+Created under organisation name Root'n'Route (rootnroute.com)
+
+(c) Morgan Hofmann, 2022
